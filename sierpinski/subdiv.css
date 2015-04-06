@@ -1,0 +1,1018 @@
+
+/* Normal
+*********************************************************************************************/
+
+.row {
+    width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.row .one-quarter, .row .three-quarters {
+    float: left;
+    min-height: 1px;
+    padding: 0 20px;
+}
+
+.row .one-quarter {
+    width: 245px;
+}
+
+.row .three-quarters {
+    width: 815px;
+}
+
+@media (max-width: 1600px) {
+
+    body {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    h1
+    {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 4px;
+        max-width: 90%;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+
+    h2, h3, h4 { 
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    h3, h4 { 
+        margin-top: 18px;
+    }
+
+    p, ul, ol {
+        margin: 0 0 18px;
+    }
+
+    ul, ol {
+        margin-left: 16px;
+    }
+
+    .menubar a {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 7px 7px 5px 7px;
+    }
+
+
+    
+    .row {
+        width: 960px;
+    }
+    
+    .row .one-quarter {
+        width: 200px;
+    }
+    
+    
+    .row .three-quarters {
+        width: 680px;
+    }
+
+    .post h1,
+    .post h2 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 4px;
+        padding-bottom: 8px;
+    }
+
+    .post h3 {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+
+
+
+    /* Articles
+    *********************************************************************************************/
+
+    article.intro .read0 {
+        width: 69%;
+        float: left;
+        padding-left:15%;
+        padding-right:15%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    article.intro .read1 {
+        width: 40%;
+        float: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    article.intro .read2 {
+        width: 40%;
+        float: right;
+        margin-left: 60%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    article.full .read {
+        width: 60%;
+        float: left;
+        margin-left: 40%;
+        padding: 50px 0 30px;
+    }
+
+
+
+    article.intro .look1 {
+        margin-left: 40%;
+        width: 60%;
+    }
+
+    article.intro .look2 {
+        margin-left:0px;
+        width: 60%;
+    }
+
+    article.full .look {
+        position: fixed;
+        width: 60%;
+    }
+
+
+    article .post {
+        margin: 0 40px;
+    }
+
+    article .meta {
+        font-weight: 300;
+        font-size: 14px;
+    }
+            
+}
+
+
+
+/* XXL
+*********************************************************************************************/
+
+@media (max-width: 1160px) {
+
+    body {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    h1
+    {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 4px;
+        max-width: 90%;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+
+
+    h2, h3, h4 { 
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    h3, h4 { 
+        margin-top: 16px;
+    }
+
+    p, ul, ol {
+        margin: 0 0 16px;
+    }
+
+    ul, ol {
+        margin-left: 16px;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+    .menubar a {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 6px 6px 4px 6px;
+    }
+
+
+    
+    .row {
+        width: 960px;
+    }
+    
+    .row .one-quarter {
+        width: 200px;
+    }
+    
+    
+    .row .three-quarters {
+        width: 680px;
+    }
+
+
+    .post h1,
+    .post h2 {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 3px;
+        padding-bottom: 6px;
+    }
+
+    .post h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    /* Articles
+    *********************************************************************************************/
+
+    article.intro .read0 {
+        width: 79%;
+        float: left;
+        padding-left:10%;
+        padding-right:10%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+
+    article.intro .read1 {
+        width: 40%;
+        float: left;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    article.intro .read2 {
+        width: 40%;
+        float: right;
+        margin-left: 60%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+
+    article.full .read {
+        width: 70%;
+        float: left;
+        margin-left: 30%;
+        padding: 50px 0 30px;
+    }
+
+    article.intro .look1 {
+        margin-left: 40%;
+        width: 60%;
+    }
+
+    article.intro .look2 {
+        margin-left:0px;
+        width: 60%;
+    }
+
+    article.full .look {
+        position: fixed;
+        width: 70%;
+    }
+
+    article .post {
+        margin: 0 30px;
+    }
+
+    article .meta {
+        font-weight: 200;
+        font-size: 12px;
+    }
+    
+}
+
+/* XL
+*********************************************************************************************/
+
+@media (max-width: 980px) {
+
+    body {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+     h1
+    {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 4px;
+        max-width: 90%;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+
+    h2, h3, h4 { 
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    h3, h4 { 
+        margin-top: 12px;
+    }
+
+    p, ul, ol {
+        margin: 0 0 12px;
+    }
+
+    ul, ol {
+        margin-left: 12px;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+    .menubar a {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 6px 6px 4px 6px;
+    }
+    
+    .row {
+        width: 780px;
+    }
+    
+    .row .one-quarter {
+        width: 155px;
+    }
+    
+    .row .three-quarters {
+        width: 545px;
+    }
+
+
+    .post h1,
+    .post h2 {
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 3px;
+        padding-bottom: 6px;
+    }
+
+    .post h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+
+    /* Articles
+    *********************************************************************************************/
+
+    article.intro .read0 {
+        width: 79%;
+        float: left;
+        padding-left:10%;
+        padding-right:10%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+
+    article.intro .read1 {
+        width: 50%;
+        float: left;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    article.intro .read2 {
+        width: 50%;
+        float: right;
+        margin-left: 50%;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+
+    article.full .read {
+        width: 70%;
+        float: left;
+        margin-left: 30%;
+        padding: 50px 0 30px;
+    }
+
+    article.intro .look1 {
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    article.intro .look2 {
+        margin-left:0px;
+        width: 50%;
+    }
+
+    article.full .look {
+        position: fixed;
+        width: 70%;
+    }
+
+    article .post {
+        margin: 0 20px;
+    }
+
+    article .meta {
+        font-weight: 200;
+        font-size: 10px;
+    }
+    
+}
+
+/* L
+*********************************************************************************************/
+
+@media (max-width: 820px) {
+
+    body {
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+     h1
+    {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 4px;
+        max-width: 90%;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-weight: 400;
+        margin-bottom: 3px;
+    }
+
+
+    h2, h3, h4 { 
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    h3, h4 { 
+        margin-top: 10px;
+    }
+
+    p, ul, ol {
+        margin: 0 0 10px;
+    }
+
+    ul, ol {
+        margin-left: 10px;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+
+    .menubar a {
+        font-size: 10px;
+        line-height: 16px;
+        padding: 5px 5px 3px 5px;
+    }
+    
+    .row {
+        width: 600px;
+    }
+    
+    .row .one-quarter {
+        width: 155px;
+    }
+    
+    .row .three-quarters {
+        width: 365px;
+    }
+
+
+    .post h1,
+    .post h2 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 3px;
+        padding-bottom: 6px;
+    }
+
+    .post h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    /* Articles
+    *********************************************************************************************/
+
+    article.intro .read0 {
+        width: 89%;
+        float: left;
+        padding-left:5%;
+        padding-right:5%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    article.intro .read1 {
+        width: 50%;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    article.intro .read2 {
+        width: 50%;
+        float: right;
+        margin-left: 50%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    article.full .read {
+        width: 90%;
+        float: left;
+        margin-left: 10%;
+        padding: 30px 0 20px;
+    }
+
+
+    article.intro .look1 {
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    article.intro .look2 {
+        margin-left:0px;
+        width: 50%;
+    }
+
+    article.full .look {
+        position: fixed;
+        width: 90%;
+    }
+
+    article .post {
+        margin: 0 10px;
+    }
+
+
+    article .meta {
+        font-weight: 200;
+        font-size: 10px;
+    }
+    
+}
+
+/* M
+*********************************************************************************************/
+
+@media (max-width: 640px) {
+
+    body {
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+
+     h1
+    {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 4px;
+        max-width: 90%;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-weight: 300;
+        margin-bottom: 4px;
+    }
+
+
+    h2, h3, h4 { 
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    h3, h4 { 
+        margin-top: 10px;
+    }
+
+    p, ul, ol {
+        margin: 0 0 10px;
+    }
+
+    ul, ol {
+        margin-left: 10px;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+    .menubar a {
+        font-size: 10px;
+        line-height: 14px;
+        padding: 4px 4px 2px 4px;
+    }
+
+    .row {
+        width: 480px;
+    }
+    
+    .row .one-quarter,
+    .row .three-quarters {
+        width: 440px;
+    }
+
+    .post h1,
+    .post h2 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 3px;
+        padding-bottom: 6px;
+    }
+
+    .post h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    /* Articles
+    *********************************************************************************************/
+
+    article.intro .read0 {
+        width: 93%;
+        float: left;
+        padding-left:3%;
+        padding-right:3%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    article.intro .read1 {
+        width: 50%;
+        float: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    article.intro .read2 {
+        width: 50%;
+        float: right;
+        margin-left: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    article.full .read {
+        width: 95%;
+        float: left;
+        margin-left: 5%;
+        padding: 20px 0 15px;
+    }
+    
+
+     article.intro .look1 {
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    article.intro .look2 {
+        margin-left:0px;
+        width: 50%;
+    }
+
+    article.full .look {
+        position: fixed;
+        width: 90%;
+    }
+
+    article .post {
+        margin: 0 10px;
+    }
+
+    article .meta {
+        font-weight: 150;
+        font-size: 10px;
+    }
+}
+
+/* S
+*********************************************************************************************/
+
+@media (max-width: 520px) {
+
+    body {
+        font-weight: 200;
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+
+     h1
+    {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 4px;
+        max-width: 90%;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-weight: 300;
+        margin-bottom: 2px;
+    }
+
+
+    h2, h3, h4 { 
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    h3, h4 { 
+        margin-top: 6px;
+    }
+
+    p, ul, ol {
+        margin: 0 0 6px;
+    }
+
+    ul, ol {
+        margin-left: 6px;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+    .menubar a {
+        font-size: 10px;
+        line-height: 14px;
+        padding: 4px 4px 2px 4px;
+    }
+    
+    .row {
+        width: 360px;
+    }
+    
+    .row .one-quarter,
+    .row .three-quarters {
+        width: 320px;
+    }
+
+    .post h1,
+    .post h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 3px;
+        padding-bottom: 6px;
+    }
+
+    .post h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    /* Articles
+    *********************************************************************************************/
+
+    article.intro .read0 {
+        width: 93%;
+        float: left;
+        padding-left:3%;
+        padding-right:3%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    article.intro .read1 {
+        width: 50%;
+        float: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    article.intro .read2 {
+        width: 50%;
+        float: right;
+        margin-left: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    article.full .read {
+        width: 95%;
+        float: left;
+        margin-left: 5%;
+        padding: 20px 0 15px;
+    }
+
+     article.intro .look1 {
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    article.intro .look2 {
+        margin-left:0px;
+        width: 50%;
+    }
+
+    article.full .look {
+        position: fixed;
+        width: 90%;
+    }
+
+    article .post {
+        margin: 0 5px;
+    }
+
+    article .meta {
+        font-weight: 150;
+        font-size: 8px;
+    }
+    
+}
+
+/* XS
+*********************************************************************************************/
+
+@media (max-width: 400px) {
+
+     body {
+        font-weight: 200;
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+
+     h1
+    {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 4px;
+        max-width: 90%;
+    }
+
+    h2, h3, h4, h5, h6 {
+        font-weight: 300;
+        margin-bottom: 2px;
+    }
+
+
+    h2, h3, h4 { 
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    h3, h4 { 
+        margin-top: 6px;
+    }
+
+    p, ul, ol {
+        margin: 0 0 6px;
+    }
+
+    ul, ol {
+        margin-left: 6px;
+    }
+
+    header {
+        visibility: hidden;
+    }
+
+    .menubar a {
+        font-size: 8px;
+        line-height: 12px;
+        padding: 3px 3px 1px 3px;
+    }
+    
+    .row .one-quarter,
+    .row .three-quarters {
+        padding: 0;
+    }
+    
+    
+    .row {
+        width: 240px;
+    }
+    
+    .row .one-quarter,
+    .row .three-quarters {
+        width: 240px;
+    }
+
+    .post h1,
+    .post h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 3px;
+        padding-bottom: 6px;
+    }
+
+    .post h3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    /* Articles
+    *********************************************************************************************/
+
+    article.intro .read0 {
+        width: 93%;
+        float: left;
+        padding-left:3%;
+        padding-right:3%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    article.intro .read1 {
+        width: 50%;
+        float: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    article.intro .read2 {
+        width: 50%;
+        float: right;
+        margin-left: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+    article.full .read {
+        width: 95%;
+        float: left;
+        margin-left: 5%;
+        padding: 20px 0 15px;
+    }
+
+
+    article.intro .look1 {
+        margin-left: 50%;
+        width: 50%;
+    }
+
+    article.intro .look2 {
+        margin-left:0px;
+        width: 50%;
+    }
+
+    article.full .look {
+        position: fixed;
+        width: 90%;
+    }
+
+    article .post {
+        margin: 0 5px;
+    }
+
+
+    article .meta {
+        font-weight: 150;
+        font-size: 8px;
+    }
+    
+}
