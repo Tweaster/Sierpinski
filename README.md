@@ -8,6 +8,8 @@ Hi my name is [Fabrice Rasoamiaramanana](https://ca.linkedin.com/in/frasoamiaram
 ##Installation
 Just copy the `Sierpinski` folder into your `templates` folder, then select it from the list of installed templates in your dropplets menu.
 
+Additionnaly, the `index.php` at the `dropplets` root folder must be replaced by the one provided here 
+
 ##Screenshots
 
 ![Screenshot](http://projectify.me/templates/sierpinski/screenshot.jpg)
