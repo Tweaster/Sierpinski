@@ -12,4 +12,4 @@ Additionnaly, the `index.php` at the `dropplets` root folder must be replaced by
 
 ##Screenshots
 
-![Screenshot](http://projectify.me/templates/sierpinski/screenshot.jpg)
+![Screenshot](https://github.com/Tweaster/Sierpinski/blob/master/sierpinski/screenshot.jpg?raw=true)
