@@ -13,3 +13,14 @@ Additionnaly, the `index.php` at the `dropplets` root folder must be replaced by
 ##Screenshots
 
 ![Screenshot](https://github.com/Tweaster/Sierpinski/blob/master/sierpinski/screenshot.jpg?raw=true)
+
+
+[click here](http://sierpinsky.projectfurnace.org)
+
+
+Check our other projects here:
+- [Sticky Routine](http://sticky.projectfurnace.org)
+- [Buddjet](http://buddjet.projectfurnace.org)
+- [DashDot](http://dash.projectfurnace.org)
+
+This theme is developped by [Fabrice Rasoamiaramanana](http://buddjet.projectfurnace.org) and is published under a GPL license.
